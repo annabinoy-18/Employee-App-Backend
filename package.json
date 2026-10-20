@@ -1,0 +1,15 @@
+{
+  "name": "employee-app-backend",
+  "version": "1.0.0",
+  "description": "Employee App backend using Express and MongoDB Atlas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0"
+  }
+}
